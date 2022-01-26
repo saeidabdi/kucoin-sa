@@ -20,7 +20,7 @@ Fault tolerant auto-reconnecting Websocket API for Kucoin and get orderbook!
 **Usage**
 
 ```
-const Kucoin = require("kucoin_sa")
+const Kucoin = require("kucoin-sa")
 
 
 // Maximum 100 Symbol / Connection!
