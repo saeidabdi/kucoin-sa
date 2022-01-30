@@ -1,4 +1,4 @@
-const Kucoin = require("kucoin-websocket-api")
+const Kucoin = require("./src/index")
 
 const client = new Kucoin()
 
@@ -8,7 +8,7 @@ const client = new Kucoin()
 module.exports = client;
 
 // let test = async () => {
-//   let orderbook = await client.getOrderbook(symbols = )
+//   let orderbook = await client.getOrderbook(symbols)
 
 //   setInterval(()=>{
 //       console.log(orderbook.bids[0]);

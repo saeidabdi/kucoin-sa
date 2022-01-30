@@ -27,7 +27,7 @@ const Kucoin = require("kucoin-sa")
 const symbols = ["BTC-USDT", "ETH-BTC"]
 
 let test = async () => {
-  //   let orderbook = await client.getOrderbook(symbols)
+  //   let orderbook = await Kucoin.getOrderbook(symbols)
 
   //   setInterval(()=>{
   //       console.log(orderbook);
